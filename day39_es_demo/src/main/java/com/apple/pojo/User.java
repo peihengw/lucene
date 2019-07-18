@@ -17,14 +17,6 @@ public class User {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -37,7 +29,12 @@ public class User {
         this.sex = sex;
     }
 
+<<<<<<< HEAD
     public void myName(){
         System.out.println("名字是:"+name);
+=======
+    public void isMan(){
+        System.out.println(sex == true? "男":"女");
+>>>>>>> origin/master
     }
 }
