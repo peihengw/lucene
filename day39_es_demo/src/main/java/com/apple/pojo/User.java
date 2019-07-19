@@ -13,15 +13,7 @@ public class User {
     private boolean sex;
     private int age;
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public void myName() {
-        System.out.println("名字是:" + name);
+    public void myAge(){
+        System.out.println("myAge:"+age);
     }
 }
